@@ -30,7 +30,6 @@
 		08185ED523E33CB300285E6C /* RollerShutterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185ED423E33CB300285E6C /* RollerShutterDetailView.swift */; };
 		08185EE223E4865A00285E6C /* MyObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EE123E4865A00285E6C /* MyObservable.swift */; };
 		08185EE423E4876A00285E6C /* MyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EE323E4876A00285E6C /* MyObserver.swift */; };
-		08185EE623E4A24E00285E6C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EE523E4A24E00285E6C /* Colors.swift */; };
 		08185EE823E4A33C00285E6C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EE723E4A33C00285E6C /* UIView+Extension.swift */; };
 		08185EED23E4C82600285E6C /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08185EEC23E4C82500285E6C /* IQKeyboardManagerSwift.framework */; };
 		08185EEE23E4C82600285E6C /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08185EEC23E4C82500285E6C /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -41,6 +40,7 @@
 		08185EFC23E5BF8400285E6C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EFB23E5BF8400285E6C /* UserViewModel.swift */; };
 		08185EFE23E7639A00285E6C /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08185EFD23E7639A00285E6C /* UIStackView+Extension.swift */; };
 		082F5D9623E85ACF001B5B3B /* UserAddress+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F5D9523E85ACF001B5B3B /* UserAddress+CoreDataProperties.swift */; };
+		082F5D9C23E85FB3001B5B3B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F5D9B23E85FB3001B5B3B /* Colors.swift */; };
 		08C991C423E0679800DD3967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C991C323E0679800DD3967 /* AppDelegate.swift */; };
 		08C991C623E0679800DD3967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C991C523E0679800DD3967 /* SceneDelegate.swift */; };
 		08C991CE23E0679800DD3967 /* TestModuloTech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08C991CC23E0679800DD3967 /* TestModuloTech.xcdatamodeld */; };
@@ -99,7 +99,6 @@
 		08185ED423E33CB300285E6C /* RollerShutterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerShutterDetailView.swift; sourceTree = "<group>"; };
 		08185EE123E4865A00285E6C /* MyObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObservable.swift; sourceTree = "<group>"; };
 		08185EE323E4876A00285E6C /* MyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObserver.swift; sourceTree = "<group>"; };
-		08185EE523E4A24E00285E6C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = "../../../../Lydia/Lydia-Test/LydiaTest/LydiaTest/Utils/Constants/Colors.swift"; sourceTree = "<group>"; };
 		08185EE723E4A33C00285E6C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		08185EE923E4C74D00285E6C /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
 		08185EEC23E4C82500285E6C /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
@@ -109,6 +108,7 @@
 		08185EFB23E5BF8400285E6C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		08185EFD23E7639A00285E6C /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		082F5D9523E85ACF001B5B3B /* UserAddress+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAddress+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		082F5D9B23E85FB3001B5B3B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		08C991C023E0679800DD3967 /* TestModuloTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestModuloTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C991C323E0679800DD3967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C991C523E0679800DD3967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,13 +145,13 @@
 		08185EBD23E1EECB00285E6C /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				08185EE523E4A24E00285E6C /* Colors.swift */,
 				08C991E523E0861A00DD3967 /* ProductType.swift */,
 				08185EBE23E1EEED00285E6C /* Converter.swift */,
 				08185EC023E1F38C00285E6C /* CodingUserInfoKey.swift */,
 				08185EC223E2FBB700285E6C /* ImageUtils.swift */,
 				08185EE723E4A33C00285E6C /* UIView+Extension.swift */,
 				08185EFD23E7639A00285E6C /* UIStackView+Extension.swift */,
+				082F5D9B23E85FB3001B5B3B /* Colors.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -392,7 +392,6 @@
 			files = (
 				08185EC123E1F38C00285E6C /* CodingUserInfoKey.swift in Sources */,
 				082F5D9623E85ACF001B5B3B /* UserAddress+CoreDataProperties.swift in Sources */,
-				08185EE623E4A24E00285E6C /* Colors.swift in Sources */,
 				08185EB523E1EA4900285E6C /* Light+CoreDataClass.swift in Sources */,
 				08185EBF23E1EEED00285E6C /* Converter.swift in Sources */,
 				08185EB823E1EA4900285E6C /* Equipment+CoreDataProperties.swift in Sources */,
@@ -411,6 +410,7 @@
 				08185EB323E1EA4900285E6C /* RollerShutter+CoreDataClass.swift in Sources */,
 				08185ECF23E332AE00285E6C /* RollerShutterViewModel.swift in Sources */,
 				08185EFE23E7639A00285E6C /* UIStackView+Extension.swift in Sources */,
+				082F5D9C23E85FB3001B5B3B /* Colors.swift in Sources */,
 				08185EB723E1EA4900285E6C /* Equipment+CoreDataClass.swift in Sources */,
 				08185EC623E317C100285E6C /* Animations.swift in Sources */,
 				08C991E623E0861A00DD3967 /* ProductType.swift in Sources */,

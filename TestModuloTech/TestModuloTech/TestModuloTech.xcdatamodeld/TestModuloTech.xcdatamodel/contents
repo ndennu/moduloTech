@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Equipment" representedClassName="Equipment" isAbstract="YES" syncable="YES">
+        <attribute name="deviceName" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productType" attributeType="String"/>
+    </entity>
+    <entity name="Heater" representedClassName="Heater" parentEntity="Equipment" syncable="YES">
+        <attribute name="mode" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="temperature" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Light" representedClassName="Light" parentEntity="Equipment" syncable="YES">
+        <attribute name="intensity" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mode" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="RollerShutter" representedClassName="RollerShutter" parentEntity="Equipment" syncable="YES">
+        <attribute name="position" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="birthDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="firstName" attributeType="String"/>
+        <attribute name="lastName" attributeType="String"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="UserAddress" inverseName="addressOfUser" inverseEntity="UserAddress"/>
+    </entity>
+    <entity name="UserAddress" representedClassName="UserAddress" syncable="YES">
+        <attribute name="city" attributeType="String"/>
+        <attribute name="country" attributeType="String"/>
+        <attribute name="postalCode" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="street" attributeType="String"/>
+        <attribute name="streetCode" attributeType="String"/>
+        <relationship name="addressOfUser" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="User" inverseName="address" inverseEntity="User"/>
+    </entity>
+    <elements>
+        <element name="Equipment" positionX="-36" positionY="18" width="128" height="88"/>
+        <element name="Heater" positionX="-9" positionY="72" width="128" height="73"/>
+        <element name="Light" positionX="-27" positionY="81" width="128" height="73"/>
+        <element name="RollerShutter" positionX="9" positionY="81" width="128" height="58"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="UserAddress" positionX="-54" positionY="9" width="128" height="133"/>
+    </elements>
+</model>

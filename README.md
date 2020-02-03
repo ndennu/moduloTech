@@ -16,6 +16,15 @@ Utilisation du parttern MVVM
 
 ## Carthage - Framework
 
+### Installation
+
+```
+Dans le dossier TestModuloTech, lancer la commande suivante:
+$ carthage update --platform iOS
+```
+
+### Dépendance
+
 ```
 ninjaprox/NVActivityIndicatorView -> loader
 hackiftekhar/IQKeyboardManager -> pour gérer les textfields
